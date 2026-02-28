@@ -1,0 +1,36 @@
+# Kotlin
+build/
+out/
+.gradle/
+.kotlin/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.iml
+*.log
+.env*
+
+# Android
+.idea/
+*.ap_
+*.apk
+*.dex
+bin/
+gen/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Web / Node
+node_modules/
+dist/
+.wasm/
+
+# IDEs
+.idea/
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db
+.vscode/
